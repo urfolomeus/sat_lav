@@ -111,5 +111,10 @@ $(document).ready(function () {
     data = fetchDataFor(id);
     fillOutModalBodyWith(data);
   });
+
+  $('body').on('click', 'a.not-implemented', function (e) {
+    e.preventDefault();
+    alert('Sorry, but this feature is not available yet. This app is just a prototype to show what could be possible.');
+  });
 });
 
