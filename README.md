@@ -13,3 +13,7 @@ If when testing on iOS devices you select Don't Allow when asked if you'd like t
 5. Fill in your passcode if prompted to do so
 6. Select Reset Settings on the popup that appears after that
 7. It may take a second or two to run, so give it time.
+
+## Contact
+
+If you have any issues, please contact [alan@armoin.com](mailto:alan@armoin.com)
