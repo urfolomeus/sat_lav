@@ -1,0 +1,49 @@
+html
+  head
+    title Sat Lav
+
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+    link(type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css")
+    link(type="text/css" rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css")
+    link(type="text/css" rel="stylesheet" href="http://k4r573n.github.io/leaflet-control-osm-geocoder/Control.OSMGeocoder.css")
+    link(type="text/css" rel="stylesheet" href="/stylesheets/main.css")
+
+    script(type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
+    script(type="text/javascript" src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js")
+    script(type="text/javascript" src="http://k4r573n.github.io/leaflet-control-osm-geocoder/Control.OSMGeocoder.js")
+  body
+    #map
+
+    #basicModal.modal.fade(tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true")
+      .modal-dialog
+        .modal-content
+          .modal-header
+            button(type="button" class="close" data-dismiss="modal" aria-hidden="true")&times;
+            h4.modal-title.facility-name
+          .modal-body
+            .status
+              span.text
+              a.btn.btn-default(href="#") Opening Times
+            .facilities
+              .facility.wheelchair-access
+                img(src="/images/wheelchair_access.png")
+              .facility.baby-changing
+                img(src="/images/baby_changing.png")
+              .facility.hot-water
+                img(src="/images/hot_water.png")
+              .facility.charge
+                img(src="/images/charge.png")
+                p.text
+            .ratings
+              h3 Ratings
+              p.cleanliness
+              p.safety
+              .actions
+                a.btn.btn-primary(href="") Rate
+                a.btn.btn-primary(href="") Feedback
+                a.btn.btn-success(href="") Add to List
+
+    script(type="text/javascript" src="/scripts/data.js")
+    script(type="text/javascript" src="/scripts/app.js")

@@ -1,0 +1,23 @@
+{
+  "name": "sat_lav",
+  "version": "1.0.0",
+  "description": "A very basic prototype showing what a potential toilet finder app might look like.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urfolomeus/sat_lav.git"
+  },
+  "author": "Alan Gardner",
+  "license": "Gnu GPL v2",
+  "bugs": {
+    "url": "https://github.com/urfolomeus/sat_lav/issues"
+  },
+  "homepage": "https://github.com/urfolomeus/sat_lav",
+  "dependencies": {
+    "express": "^4.11.0",
+    "jade": "^1.9.1"
+  }
+}

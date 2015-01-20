@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html, body, #map { height: 100%; }
+form { margin-bottom: 0; }
+.leaflet-control-geocoder {
+  box-shadow: 0 0 0;
+  background: transparent;
+}
+input[type="text"] {
+  font-size: 1.2em;
+  margin-right: 0.4em;
+  padding: 0.4em;
+  padding-left: 0.6em;
+}
+input[type="submit"] {
+  font-size: 1.4em;
+  border: 1px solid #ccc;
+  background: cornflowerblue;
+  padding: 0.3em;
+  margin-top: 0.1em;
+  color: white;
+}
+.modal-header {
+  background: black;
+  color: white;
+  border-bottom: none;
+}
+.modal-header button.close {
+  opacity: 1;
+  color: white;
+  text-shadow: none;
+}
+.modal-body {
+  padding: 0;
+}
+.status {
+  height: 45px;
+  padding: 0.4em;
+}
+.status.open {
+  background: #5cb85c;
+  color: white;
+}
+.status.closed {
+  background: red;
+  color: white;
+}
+.status .text {
+  margin-top: 0.2em;
+  margin-left: 0.4em;
+  font-size: 1.8em;
+}
+.status a {
+  float: right;
+}
+.ratings {
+  padding: 1em;
+}
+.ratings h3 {
+  margin-top: 0;
+}
+.facilities {
+  text-align: center;
+  padding: 1em;
+  background: #ccc;
+}
+.facility {
+  padding: 0.5em;
+  display: inline-block;
+  position: relative;
+}
+.facility img {
+  width: 50px;
+  max-height: 50px;
+}
+.facility.wheelchair-access { background: #337ab7 }
+.facility.baby-changing     { background: black }
+.facility.hot-water         { background: orange }
+.facility.charge            { background: #5cb85c; }
+.facility .text, .facility .not-available {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.facility .text {
+  top: 0.9em;
+  left: 0;
+  font-size: 1.4em;
+}
+.facility .not-available {
+  top: -11px;
+  left: -5px;
+  font-size: 9em;
+  color: red;
+  line-height: 57px;
+}
+.actions { text-align: center; }
+
