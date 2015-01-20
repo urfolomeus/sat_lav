@@ -4,6 +4,7 @@
   "description": "A very basic prototype showing what a potential toilet finder app might look like.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,6 +17,9 @@
     "url": "https://github.com/urfolomeus/sat_lav/issues"
   },
   "homepage": "https://github.com/urfolomeus/sat_lav",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
     "express": "^4.11.0",
     "jade": "^1.9.1"
